@@ -7,18 +7,18 @@ const Settings: ProLayoutProps & {
   pwa?: boolean;
   logo?: string;
 } = {
-  "navTheme": "light",
-  "colorPrimary": "#13C2C2",
-  "layout": "mix",
-  "contentWidth": "Fluid",
-  "fixedHeader": false,
-  "fixSiderbar": true,
-  "pwa": true,
-  "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+  navTheme: 'light',
+  colorPrimary: '#13C2C2',
+  layout: 'mix',
+  contentWidth: 'Fluid',
+  fixedHeader: false,
+  fixSiderbar: true,
+  pwa: true,
+  logo: '/logo.svg',
   title: 'qadev-admin-templete',
-  "splitMenus": false,
-  "siderMenuType": "group",
-  "footerRender": false,
+  splitMenus: false,
+  siderMenuType: 'group',
+  footerRender: false,
   iconfontUrl: '',
   token: {
     // 参见ts声明，demo 见文档，通过token 修改样式

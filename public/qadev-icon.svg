@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="qadev-icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#13C2C2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1890ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="256" cy="256" r="230" fill="url(#qadev-icon-gradient)" />
+  
+  <!-- Q 字母主体 -->
+  <path d="M 256 80 Q 160 80 100 140 Q 40 200 100 260 Q 160 320 256 320 Q 352 320 412 260 Q 472 200 412 140 Q 352 80 256 80 Z" 
+        fill="white" 
+        stroke="white" 
+        stroke-width="4"/>
+  
+  <!-- Q 字母内部 -->
+  <path d="M 256 130 Q 180 130 135 180 Q 90 230 135 280 Q 180 330 256 330 Q 332 330 377 280 Q 422 230 377 180 Q 332 130 256 130 Z" 
+        fill="url(#qadev-icon-gradient)"/>
+  
+  <!-- Q 字母尾部 -->
+  <path d="M 377 280 L 450 360 L 430 380 L 357 300 Z" 
+        fill="white" 
+        stroke="white" 
+        stroke-width="4"/>
+  
+  <!-- 检查标记 -->
+  <path d="M 200 250 L 240 290 L 320 210" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="20" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
